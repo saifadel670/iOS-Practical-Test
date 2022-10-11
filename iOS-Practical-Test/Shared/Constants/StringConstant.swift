@@ -8,6 +8,8 @@
 import Foundation
 
 enum StringConstant: String {
+    case appTitle = "Movie List"
+    case searchPlaceHolder = "Search"
     case marvel = "marvel"
     case posterPlaceHolderPath = "poster_placeholder"
 }

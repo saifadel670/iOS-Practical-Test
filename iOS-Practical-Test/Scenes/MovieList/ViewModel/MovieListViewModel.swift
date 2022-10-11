@@ -29,7 +29,6 @@ class MovieListViewModel: ObservableObject {
             do{
                 let movies : MovieListModel.Response = try JSONDecoder().decode(MovieListModel.Response.self, from: data)
                 DispatchQueue.main.async {
-                    print("response:- \(url)")
                     self.movies = movies
                     self.loading = false
                 }

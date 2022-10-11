@@ -40,7 +40,7 @@ struct MovieListCell : View {
             
             
             VStack (alignment: .leading){
-                    Text(movie.title!)
+                Text(movie.title!).font(.title3)
                     Spacer()
                     Text(movie.overview!)
                 Spacer()
