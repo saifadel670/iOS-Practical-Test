@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct iOS_Practical_TestApp: App {
+    init() {
+      UITableView.appearance().backgroundColor = UIColor.white
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MovieListView()
         }
     }
 }
