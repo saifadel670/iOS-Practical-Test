@@ -51,9 +51,10 @@
 		EFF81D5328F5FF7E0057B53F /* iOS-Practical-Test */ = {
 			isa = PBXGroup;
 			children = (
-				EFF81D5428F5FF7E0057B53F /* iOS_Practical_TestApp.swift */,
-				EFF81D5628F5FF7E0057B53F /* ContentView.swift */,
-				EFF81D5828F5FF820057B53F /* Assets.xcassets */,
+				EFF81D6528F601D40057B53F /* Resources */,
+				EFF81D6428F601CC0057B53F /* Shared */,
+				EFF81D6328F5FFC90057B53F /* Scenes */,
+				EFF81D6228F5FFAB0057B53F /* App */,
 				EFF81D5A28F5FF820057B53F /* Preview Content */,
 			);
 			path = "iOS-Practical-Test";
@@ -65,6 +66,69 @@
 				EFF81D5B28F5FF820057B53F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFF81D6228F5FFAB0057B53F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EFF81D5428F5FF7E0057B53F /* iOS_Practical_TestApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EFF81D6328F5FFC90057B53F /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				EFF81D6628F6023D0057B53F /* MovieList */,
+				EFF81D5628F5FF7E0057B53F /* ContentView.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		EFF81D6428F601CC0057B53F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		EFF81D6528F601D40057B53F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EFF81D5828F5FF820057B53F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EFF81D6628F6023D0057B53F /* MovieList */ = {
+			isa = PBXGroup;
+			children = (
+				EFF81D6928F602660057B53F /* View */,
+				EFF81D6828F6025D0057B53F /* ViewModel */,
+				EFF81D6728F602540057B53F /* Model */,
+			);
+			path = MovieList;
+			sourceTree = "<group>";
+		};
+		EFF81D6728F602540057B53F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EFF81D6828F6025D0057B53F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EFF81D6928F602660057B53F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
